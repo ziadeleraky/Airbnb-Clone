@@ -1,0 +1,17 @@
+.card-top {
+  position: relative;
+}
+.card-top img {
+  width: 100%;
+}
+.card-top span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  padding: 3px 5px;
+}
+
+.star {
+  width: 20px;
+}

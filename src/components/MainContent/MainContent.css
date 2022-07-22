@@ -1,0 +1,27 @@
+.main-grid-img {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.main-text {
+  padding-bottom: 3rem;
+}
+
+.main-text h1 {
+  font-weight: 600;
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .main-text h1 {
+    font-size: 4rem;
+    letter-spacing: -4px;
+    text-align: left !important;
+  }
+  .main-text .paragraph {
+    justify-content: flex-start !important;
+  }
+  .main-text .paragraph p {
+    text-align: left !important;
+  }
+}
